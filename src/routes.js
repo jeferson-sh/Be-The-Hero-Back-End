@@ -1,10 +1,10 @@
 const express = require('express');
 const {celebrate, Segments, Joi} = require('celebrate');
 
-const OngController = require('./controllers/OngController');
-const IncidentController = require('./controllers/IncidentController');
-const ProfileController = require('./controllers/ProfileController');
-const SessioController = require('./controllers/SessionController');
+const OngController = require('./controllers/OngController.js');
+const IncidentController = require('./controllers/IncidentController.js');
+const ProfileController = require('./controllers/ProfileController.js');
+const SessioController = require('./controllers/SessionController.js');
 
 const routes = express.Router();
 
