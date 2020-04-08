@@ -3,7 +3,7 @@ const {celebrate, Segments, Joi} = require('celebrate');
 
 const OngController = require('./controllers/OngController.js');
 const IncidentController = require('./controllers/IncidentController.js');
-const ProfileController = require('./controllers/ProfileController.js');
+const ProfileController = require('./controllers/ProfilesController.js');
 const SessioController = require('./controllers/SessionController.js');
 
 const routes = express.Router();
